@@ -1,0 +1,46 @@
+/* Table Header Row */
+table th {
+    background-color: #808080;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center; /* Center the text in table headers */
+}
+
+/* Table Data Rows */
+table td {
+    border: 1px solid #ddd;
+    background-color: white;
+    padding: 8px;
+    text-align: center; /* Center the text in table cells */
+    width: 33.3%;
+}
+
+
+img {
+    width : 20%;
+    height : 20%;
+}
+
+/* Style for the contact information */
+.contact-info {
+    display: flex;
+    justify-content: center;
+}
+
+/* Style for each contact item (address, phone, email) */
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 0 10px 0 20px; /* Add more margin on the left side for spacing */
+}
+
+/* Style for the black circle (dot) */
+.dot {
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 10px 10px; /* Adjust the margin as needed for spacing */
+}
+
